@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  user-select: none;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+}
+
+#counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(35, 35, 35);
+    padding: 10px;
+    border-radius: 500px;
+}
+
+#counter p {
+    font-size: 2rem;
+    padding: calc(1.4rem / 2) 0;
+    color: white;
+    /* height: 100%; */
+    vertical-align: middle;
+}
+
+#counter button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(25, 15, 102);
+    color: whitesmoke;
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+}
+
+#counter button:active {
+    scale: .9;
+}
