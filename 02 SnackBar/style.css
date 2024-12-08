@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  user-select: none;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  overflow: hidden;
+}
+
+#generateSnackbar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(35, 35, 35);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input {
+    width: 15rem;
+    height: 100%;
+    padding: 10px;
+    /* border: none; */
+    border: 2px solid rgb(75, 75, 75);
+    background-color: transparent;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: whitesmoke;
+    font-weight: 600;
+    outline: none;
+    transition: .3s;
+}
+
+input[type='number'] {
+    width: 5rem;
+    text-align: center;
+}
+
+input:hover {
+    border: 2px solid rgb(150, 150, 150);
+}
+
+button {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(17, 67, 43);
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    color: whitesmoke;
+    font-size: 18px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:active {
+    scale: .9;
+}
+
+#snackbar_container {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 15px;
+}
+
+#snackbar_container .snackbar {
+    padding: 5px 10px;
+    background-color: rgb(10, 10, 10);
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: 600;
+    width: fit-content;
+    max-width: 15rem;
+    animation: snack_start 1s;
+}
+
+#snackbar_container .timer {
+    animation: timer_anim 5s linear 1s;
+    background-color: rgb(75, 75, 75);
+    width: 100%;
+    height: 5px;
+    border-radius: 50px;
+    margin-top: 6px;
+}
+
+/* Animations */
+
+@keyframes snack_start {
+    from {
+        transform: translateX(calc(100% + 3rem)); /* Moves off-screen, 20px added for padding/margin */
+    }
+    to {
+        transform: translateX(0); /* Moves into its position */
+    }
+}
+
+@keyframes snack_end {
+    from {
+        transform: translateX(0); /* Moves into its position */
+    }
+    to {
+        transform: translateX(calc(100% + 3rem)); /* Moves off-screen, 20px added for padding/margin */
+    }
+}
+
+@keyframes timer_anim {
+    to {
+        width: 0;
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='shortcut icon' href='IMG/icon.ico' type='image/x-icon'>
+    <script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js'></script>
+    <script src='https://kit.fontawesome.com/207c253573.js' crossorigin='anonymous'></script>
+    <title>JS Snackbar Notifications</title>
+</head>
+<body>
+
+    <div id="generateSnackbar">
+        <input id="texto_input" type="text" placeholder="Snackbar Text">
+        <input id="time_input" type="number" placeholder="Time (s)">
+        <button onclick="snackbar(document.getElementById('texto_input').value, document.getElementById('time_input').value)"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div id="snackbar_container">
+    </div>
+
+    <script src='script.js'></script>
+
+</body>
+</html>
