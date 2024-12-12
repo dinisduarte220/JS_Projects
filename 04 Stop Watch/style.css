@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  user-select: none;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(50, 50, 50);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#content #display {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+#content button {
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#content button:active {
+    scale: .9;
+}
+
+#content button:not(:last-child) {
+    margin-right: 10px;
+}
+
+#content button.btn_start {
+    background-color: rgb(26, 87, 26);
+}
+
+#content button.btn_pause {
+    background-color: rgb(87, 86, 26);
+}
+
+#content button.btn_stop {
+    background-color: rgb(87, 26, 26);
+}
