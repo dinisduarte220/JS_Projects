@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='shortcut icon' href='IMG/icon.ico' type='image/x-icon'>
+    <script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js'></script>
+    <script src='https://kit.fontawesome.com/207c253573.js' crossorigin='anonymous'></script>
+    <title>TIP Calculator</title>
+</head>
+<body>
+
+    <div id="content">
+        <input type="number" id="value_input" placeholder="Value" oninput="calculateTIP(this.value, document.getElementById('range_input').value)">
+        <div id="rangeDisplay">1 %</div>
+        <input type="range" oninput="range(this.value)" id="range_input" min="1" max="100" value="1">
+        <div id="finalValue"></div>
+    </div>
+
+    <script src='script.js'></script>
+
+</body>
+</html>
