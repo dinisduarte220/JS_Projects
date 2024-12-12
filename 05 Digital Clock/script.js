@@ -10,7 +10,7 @@ function clock(mode) {
     let indicator
     interval = setInterval(() => {
       date = new Date()
-      if (date.getHours() > 12) {
+      if (date.getHours() >= 12) {
         indicator = "PM"
       } else {
         indicator = "AM"
