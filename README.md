@@ -18,13 +18,13 @@ git clone https://github.com/dinisduarte220/JS_Projects.git
 cd JS_Projects
 ```
 
-3. Open the code (If you want to)
+3. If you want to open the code
 
 ```
 code .
 ```
 
-4. Each Project has its own folder and files
+4. Each Project has its own folder and files, open the project-folder/index.html in your browser and enjoy!
 
 # Projects
 
