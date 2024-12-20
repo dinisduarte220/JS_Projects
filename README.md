@@ -28,6 +28,7 @@ code .
 
 # Projects
 
+- Coin Flipper [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/07%20Coin%20Flipper)
 - Counter [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/01%20Counter)
 - Digital Clock [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/02%20SnackBar)
 - Snackbar Notifications [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/03%20Word%20Counter)
