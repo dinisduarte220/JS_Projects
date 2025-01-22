@@ -30,11 +30,12 @@ code .
 
 - Coin Flipper [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/07%20Coin%20Flipper)
 - Counter [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/01%20Counter)
-- Digital Clock [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/02%20SnackBar)
-- Snackbar Notifications [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/03%20Word%20Counter)
-- Stop Watch [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/01%20Counter)
-- TIP Calculator [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/05%20Digital%20Clock)
-- Word Counter [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/06%20TIP%20Calculator)
+- Digital Clock [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/05%20Digital%20Clock)
+- Reaction Time [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/08%20Reaction%20Time)
+- Snackbar Notifications [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/02%20SnackBar)
+- Stop Watch [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/04%20Stop%20Watch)
+- TIP Calculator [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/06%20TIP%20Calculator)
+- Word Counter [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/03%20Word%20Counter)
 
 # CONTRIBUTIONS
 
