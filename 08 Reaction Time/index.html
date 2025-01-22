@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='shortcut icon' href='IMG/icon.ico' type='image/x-icon'>
+    <script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js'></script>
+    <script src='https://kit.fontawesome.com/207c253573.js' crossorigin='anonymous'></script>
+    <title>Reaction Time</title>
+</head>
+<body>
+
+    <div id="content">
+        <h2>Wait for the 5 lights to turn off</h2>
+        <br>
+        <div id="lights">
+            <div id="light1" class="light"></div>
+            <div id="light2" class="light"></div>
+            <div id="light3" class="light"></div>
+            <div id="light4" class="light"></div>
+            <div id="light5" class="light"></div>
+        </div>
+        <button onclick="stopTime()" id="stopTime_btn">Stop Time</button>
+        <p id="reactionTimeDisplay">Reaction Time</p>
+        <button onclick="lights()" id="startButton">New Try</button>
+    </div>
+
+    <script src='script.js'></script>
+
+</body>
+</html>
