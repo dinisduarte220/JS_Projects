@@ -32,6 +32,7 @@ code .
 - Counter [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/01%20Counter)
 - Digital Clock [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/05%20Digital%20Clock)
 - Reaction Time [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/08%20Reaction%20Time)
+- Scratch Card [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/09%20Scratch%20Card)
 - Snackbar Notifications [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/02%20SnackBar)
 - Stop Watch [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/04%20Stop%20Watch)
 - TIP Calculator [link here](https://github.com/dinisduarte220/JS_Projects/tree/main/06%20TIP%20Calculator)
