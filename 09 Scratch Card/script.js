@@ -11,7 +11,7 @@ function loadLottery() {
   for (let i = 1; i <= 3; i++) {
     const scratchCanvas = document.getElementById('scratchCanvas' + i)
     const scratchImage = document.getElementById('hiddenImage' + i)
-    const ctx = scratchCanvas.getContext('2d')
+    const ctx = scratchCanvas.getContext('2d', { willReadFrequently: true })
     
     scratchCanvas.width = 100
     scratchCanvas.height = 100
