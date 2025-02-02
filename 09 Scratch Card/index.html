@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <script src='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js'></script>
+    <script src='https://kit.fontawesome.com/207c253573.js' crossorigin='anonymous'></script>
+    <title>Scratch Card</title>
+</head>
+<body>
+    <div id="card">
+        <h2>Scratch your card</h2>
+        <h5>Good luck!</h5>
+        <br>
+        <div id="scratchItems">
+            <div class="scratchCard" id="scratchCard1">
+                <canvas class="scratchCanvas" id="scratchCanvas1"></canvas>
+                <img class="hiddenImage" src="" id="hiddenImage1">
+            </div>
+            <div class="scratchCard" id="scratchCard2">
+                <canvas class="scratchCanvas" id="scratchCanvas2"></canvas>
+                <img class="hiddenImage" src="" id="hiddenImage2">
+            </div>
+            <div class="scratchCard" id="scratchCard3">
+                <canvas class="scratchCanvas" id="scratchCanvas3"></canvas>
+                <img class="hiddenImage" src="" id="hiddenImage3">
+            </div>
+        </div>
+        <br>
+        <div id="result">
+            <p id="resultDisplay">Game result!</p>
+            <button onclick="loadLottery()">Try Again</button>
+        </div>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+</html>
